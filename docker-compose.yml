@@ -1,11 +1,10 @@
 version: '3.3'
 services:
-    qr:
-    image: 'abe6191990/nodejs-qr-gen'
+  snake:
+    image: 'abe6191990/nodejs-qr-gen:latest'
     environment:
       - "PORT:3000"
     ports:
       - "80:3000"
     volumes:
       - ./:/app
-      
