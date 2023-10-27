@@ -1,1 +1,1 @@
-# Node-JS-QR-Ctxle-nerator
+# Node-JS-QR-Code-Generator
